@@ -1,0 +1,18 @@
+.bookdetails{
+    margin-top: 50px;   
+    margin-left: 50px; 
+    margin-right: 50px;
+    border: 1px;
+    
+}
+.book_img{
+    float: left;
+    width: 15%;
+    margin-left: 50px;
+    /* text-align: center; */
+}
+.book_desc{
+    float: left;
+    width: 50%;
+
+}

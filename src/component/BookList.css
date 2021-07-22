@@ -1,0 +1,23 @@
+.booklist{
+    margin-top: 50px;   
+    margin-left: 50px; 
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    border: 1px;
+    
+};
+img{
+    width: 10px;
+}
+.gridcss{
+    margin-top: 100px;    
+    /* padding-left: 50px; */
+    /* display: grid;
+    grid-template-columns: 150px 150px; */
+}
+.internal-class{
+    /* background-color: green; */
+    text-align: center;
+}
