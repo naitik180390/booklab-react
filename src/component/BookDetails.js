@@ -15,7 +15,7 @@ const axios = require('axios');
         width: "30px",
         
     }
-    const url = `http://localhost:4000/getbookdetails?id=${id}`;
+    const url = `http://localhost:4000/getbookdetails/${id}`;
     const [booksdetails , getbookDetails] = useState({"data":{}});
     const booksdetailsres = async ()=>{
         const resp = await axios.get(url);
